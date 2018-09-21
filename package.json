@@ -1,0 +1,33 @@
+{
+  "name": "NodeJsService",
+  "version": "1.0.0",
+  "description": "NodeJS REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "mocha --recursive",
+    "test:debug": "mocha debug --recursive",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/issues"
+  },
+  "homepage": "https://github.com/#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.2.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
