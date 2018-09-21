@@ -1,7 +1,7 @@
 {
   "name": "NodeJsService",
   "version": "1.0.0",
-  "description": "NodeJS REST API",
+  "description": "Sample NodeJS REST API",
   "main": "index.js",
   "scripts": {
     "start": "node index",
